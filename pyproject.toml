@@ -1,14 +1,25 @@
 [tool.poetry]
 name = "tourismatho"
 version = "0.1.0"
-description = ""
+description = "TourisMATHo · ML Recommendation System in Tourism"
 authors = ["Драган Ћајић <cajic_dragan@yahoo.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+numpy = "^1.26.4"
+pandas = "^2.2.2"
+matplotlib = "^3.8.4"
+seaborn = "^0.13.2"
+scikit-learn = "^1.4.2"
+jupyterlab = "^4.1.6"
+notebook = "^7.1.2"
+geopy = "^2.4.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
